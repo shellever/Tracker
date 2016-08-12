@@ -17,11 +17,11 @@ Platform: Android Studio 2.0
     
 ## 百度地图支持的缩放级别
 由于没有找到百度开发指南中的类似申明，故只能自己通过测试来验证并得到结果：
-//在BaiduMap.setMaxAndMinZoomLevel中有提到：
-//百度地图支持的放大级别范围为：[3, 21]
 
-    float min = mBaiduMap.getMinZoomLevel();
-    float max = mBaiduMap.getMaxZoomLevel();
+    //在BaiduMap.setMaxAndMinZoomLevel中有提到：
+    //百度地图支持的放大级别范围为：[3, 21]
+    float min = mBaiduMap.getMinZoomLevel();    //最小放大级别
+    float max = mBaiduMap.getMaxZoomLevel();    //最大方法级别
 
 |索引号|比例尺|缩放级别(float)|
 |:-----:|:-----|:------:|
