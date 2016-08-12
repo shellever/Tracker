@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tracker</string>
+
+    <string name="comm_map">Common Map</string>
+    <string name="sate_map">Satellite Map</string>
+    <string name="rt_traffic_on">Real-Time Traffic On</string>
+    <string name="rt_traffic_off">Real-Time Traffic Off</string>
+    <string name="my_location">My Location</string>
+    <string name="loc_mode">Location Mode</string>
+    <string name="lm_normal">Normal</string>
+    <string name="lm_following">Following</string>
+    <string name="lm_compass">Compass</string>
+    <string name="add_overlay">Add Overlay</string>
+    <string name="text_a01_01">老米家泡馍</string>
+    <string name="text_a01_02">距离200米</string>
+    <string name="text_zan_num">789</string>
+</resources>

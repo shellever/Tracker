@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/commonMap"
+        android:title="@string/comm_map"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/satelliteMap"
+        android:title="@string/sate_map"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/realTimeTraffic"
+        android:title="@string/rt_traffic_off"
+        android:orderInCategory="300"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/myLocation"
+        android:title="@string/my_location"
+        android:orderInCategory="400"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/locationMode"
+        android:title="@string/loc_mode"
+        android:orderInCategory="500"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/lm_normal"
+                android:title="@string/lm_normal"
+                android:orderInCategory="100"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/lm_following"
+                android:title="@string/lm_following"
+                android:orderInCategory="200"
+                app:showAsAction="never"/>
+
+            <item
+                android:id="@+id/lm_compass"
+                android:title="@string/lm_compass"
+                android:orderInCategory="300"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/add_overlay"
+        android:title="@string/add_overlay"
+        android:orderInCategory="600"
+        app:showAsAction="never"/>
+
+</menu>
