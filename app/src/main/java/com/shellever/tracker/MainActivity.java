@@ -41,7 +41,7 @@ import java.util.Locale;
 //即点击事件由RelativeLayout处理
 
 //问题二：调试下载程序过程中，经常出现程序崩溃，无法启动起来
-//解决方法：在手机端，下载掉程序，然后重新下载安装即可
+//解决方法：在手机端，卸载掉程序，然后重新下载安装即可
 //
 public class MainActivity extends AppCompatActivity {
 
