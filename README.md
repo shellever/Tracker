@@ -7,12 +7,12 @@ Platform: Android Studio 2.0
 ## 获取Android签名证书的SHA1值的方式
 由于百度开发指南中给出的获取方式是需要通过**手动**在命令行窗口中输入命令才可以得到，感觉没有必要这么麻烦，所以写了一个简单的批处理程序`keystore.bat`，只要双击运行即可。
     
-    ::Platform: Windows
+    :: Platform: Windows
     cd /d c:\Users\%username%\.android\
     :: "keytool -help" for all available commands 
     :: "keytool -list -help" for usage of list
     keytool -list -v -keystore debug.keystore -storepass android
-    ::wait for exit
+    :: wait for exit
     pause
     
 ## 百度地图支持的缩放级别
@@ -21,7 +21,7 @@ Platform: Android Studio 2.0
     //在BaiduMap.setMaxAndMinZoomLevel中有提到：
     //百度地图支持的放大级别范围为：[3, 21]
     float min = mBaiduMap.getMinZoomLevel();    //最小放大级别
-    float max = mBaiduMap.getMaxZoomLevel();    //最大方法级别
+    float max = mBaiduMap.getMaxZoomLevel();    //最大放大级别
 
 |索引号|比例尺|缩放级别(float)|
 |:-----:|:-----|:------:|
